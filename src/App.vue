@@ -1,15 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <!-- <IfElse /> -->
+  <TwoIfElse />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+//import IfElse from './components/IfElse.vue'
+import TwoIfElse from './components/TwoIfElse.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    //HelloWorld,
+    //IfElse,
+    TwoIfElse
   }
 }
 </script>
