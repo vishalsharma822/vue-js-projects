@@ -3,19 +3,22 @@
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <!-- <IfElse /> -->
   <TwoIfElse />
+  <ToggleCondition />
 </template>
 
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
 //import IfElse from './components/IfElse.vue'
 import TwoIfElse from './components/TwoIfElse.vue';
+import ToggleCondition from './components/ToggleCondition.vue';
 
 export default {
   name: 'App',
   components: {
     //HelloWorld,
     //IfElse,
-    TwoIfElse
+    TwoIfElse,
+    ToggleCondition
   }
 }
 </script>
